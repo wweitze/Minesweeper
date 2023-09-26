@@ -1,6 +1,9 @@
+package minesweeper;
+
 import java.util.Random;
 import java.util.Queue;
 import java.util.LinkedList;
+
 public class Board implements Game{
     private final int length;
     private final int width;

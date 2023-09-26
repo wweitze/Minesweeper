@@ -1,3 +1,5 @@
+package minesweeper;
+
 import java.util.Scanner;
 
 public class Main {
@@ -62,7 +64,7 @@ public class Main {
                     case 1:
                         int tile = board.checkTile(row, column);
                         if((char)tile == Game.MINE_TOKEN){
-                            System.out.println("Game Over!");
+                            System.out.println("minesweeper.Game Over!");
                             System.exit(0);
                         }
                         else{
